@@ -1,0 +1,223 @@
+:root {
+    --background-color: #e2f6fa;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+p {
+    text-indent: 20px;
+}
+
+/* THE BEGINING OF STYLING NAVIGATION */
+
+
+.nav-bar {
+    width: 100%;
+    height: 61px;
+    background-color: var(--background-color);
+}
+.nav-bar p {
+    font-family: 'Kenia', cursive;
+    color: #222;
+    font-size: 22px;
+    line-height: 55px;
+    float: left;
+    padding: 0 20px;
+}
+.nav-bar ul {
+    float: left;
+    padding-left: 15px;
+}
+.nav-bar ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.nav-bar ul li a {
+    display: block;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 21px 14px;
+    text-decoration: none;
+}
+.nav-bar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 0 0 30px 30px;
+}
+.nav-bar ul li:hover ul {
+    display: block;
+}
+.nav-bar ul li ul li {
+    width: 150px;
+    border-radius: 10px;
+}
+.nav-bar ul li ul li a {
+    padding: 8px 14px;
+}
+.nav-bar ul li ul li a:hover {
+    background-color: #f3f3f3;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        height: 65px;
+    }
+    .nav-bar p {
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0 10px;
+    }
+    .nav-bar ul li a {
+        font-size: 14px;
+        padding: 21px 10px;
+    }
+   
+}
+@media screen and (max-width: 700px) {
+    .nav-bar p {
+        display: none;
+    }
+    .nav-bar ul li a {
+        font-size: 12px;
+        padding: 21px 5px;
+    }
+}
+
+
+/* THE END OF STYLING NAVIGATION */
+
+/* START STYLING SECTION ABOUT IMAGES*/
+
+.wrapper {
+    margin: 15px;
+}
+.traveler-box figcaption {
+	margin-top: 8px;
+    text-align: center;
+}
+.traveler-box h3 {
+    text-align: center;
+    margin: 30px;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* END STYLING SECTION ABOUT IMAGES */
+
+
+/* START STYLING OTHER TEXT ETC. */
+
+.text-article a {
+    color: #000;
+}
+.text-article a:hover {
+    background-color: #f3f3f3;
+}
+
+.text-article {
+    background-color: var(--background-color);
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px 20px 25px;   
+}
+.text-article-box > article > h2 {
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0 30px 0;
+}
+.text-article-box > .text-article > p {
+    text-indent: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-article-box > .text-article > p {
+        text-indent: 15px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .text-article-box > .text-article > p {
+        text-indent: 10px;
+    }
+}
+/* END STYLING OTHER TEXT ETC. */
+
+/* START STYLING VIDEO */
+
+
+.yt-video {
+    text-align: center;
+    padding: 10px;
+}
+
+iframe {
+    width: 80%;
+    height: auto;
+}
+
+/* END OF STYLING VIDEO */
+
+/* START STYLING TABLE */
+
+
+.table {
+    margin: 5px;
+    border: 1px solid #000;
+}
+.table-row {
+    border: 1px solid #000;
+}
+.table-data {
+    border: 1px solid #000;
+}
+
+
+/* END OF STYLING TABLE */
+
+/* START STYLING FOOTER */
+
+
+.foot {
+    position: relative;
+    bottom: 0px;
+    margin: 20px;
+}
+
+
+/* END OF STYLING FOOTER */
+
+
+/* STYLING OTHER SIDE - usedinfo.html */
+.used-info-box {
+    background-color: var(--background-color);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.p-info > a{
+    text-decoration: none;
+    color: #000;
+}
+/*  */
+.travelers-info {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+
+
