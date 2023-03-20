@@ -6,6 +6,7 @@ PL: Ta strona internetowa została stworzona na lekcję historii w drugiej klasi
 ## Technology used
   - HTML 5
   - CSS3 
+  - Boostrap
 
 ## URL 
 https://historia-geographicaldiscoveries.netlify.app/
